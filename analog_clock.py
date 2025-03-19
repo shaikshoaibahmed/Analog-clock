@@ -34,7 +34,7 @@ canvas = ui.Canvas(window, width=400, height=400, bg="black")
 canvas.pack(expand=True, fill='both')
 
 # create background
-bg = ui.PhotoImage(file='1.jpg')
+bg = ui.PhotoImage(file='1.png')
 canvas.create_image(200, 200, image=bg)
 
 
